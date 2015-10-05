@@ -1,0 +1,818 @@
+body {
+    background-color: white;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, rgba(0, 93, 171, 1)), color-stop(.5, transparent), to(transparent));
+    background-image: -moz-linear-gradient(rgba(0, 93, 171, 1) 50%, transparent 50%, transparent);
+    background-image: -o-linear-gradient(rgba(0, 93, 171, 1) 50%, transparent 50%, transparent);
+    background-image: linear-gradient(rgba(0, 93, 171, 1) 50%, transparent 50%, transparent);
+    background-size: 80px 160px;
+}
+#wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    background: white;
+    box-shadow: 0 0 200px rgba(0,0,0,0.5);
+}
+#header, #main, #footer {padding: 0 20px;}
+.clearfix:after, #main:after, #footer:after, .main-milk ul:after, .main-content:after, .dialog:after, .main-form:after, .movie:after, .order-price:after, .main-milk:after, .recipes:after, .main-container:after, .main-nav:after, .navbar:after, .header-logo:after, .add-inform:after, .footer_content:after, .copyright:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* Header */
+.logo {
+    width:567px;
+    height: 100px;
+    background: url(../images/bg_logo.png);
+    text-indent: -9999px;
+    overflow: hidden;
+    float: left;
+    margin: 0 0 20px;
+}
+.logo a {
+    display: block;
+    height: 100%;
+}
+.authorization {
+    float: right;
+    padding: 7px 0 0 0;
+}
+.authorization li, .navbar li{
+    display: inline-block;
+    margin: 0 auto;
+}
+.authorization li {
+    padding: 0 0 0 16px;
+}
+.authorization li a {
+    color: #004b86;
+    font: bold 12px 'RotondaCBold' sans-serif;
+}
+.authorization li a:hover {
+    color: #4876c0;
+    text-decoration: underline;
+}
+ul .key:before {
+    content: url(../images/img-1.png)' ';
+}
+
+.main-nav {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+}
+.main-nav li{
+    text-transform: uppercase;
+    color: #004b86;
+    font: bold 12px 'RotondaCBold' sans-serif;
+    letter-spacing: 0.6px;
+}
+.main-left li {
+    padding: 0 19px 0 0;
+    display: inline-block;
+}
+.main-right li {
+    padding: 0 0 0 23px;
+    display: inline-block;
+}
+.main-left {
+    float: left;
+}
+.main-right {
+    float: right;
+}
+
+.main-nav li a:hover {
+    color: #4876c0;
+}
+.navbar, .main-container, .main-milk {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 5px;
+}
+.phone {float: right;
+    padding-top: 6px;}
+.navbar ul {float: left;}
+.navbar li {
+    padding: 0 20px 0 0;
+    font: bold 12px 'RotondaCBold' sans-serif;
+    color: #004b86;
+}
+.navbar li a.primary_button {
+    color: white;
+    background: rgb(250,207,12) linear-gradient(rgb(250,207,12), rgb(241,129,31));
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 6px 15px;
+    display: block;
+}
+.navbar li a.button_2:hover {
+    color: #4876c0;
+    text-decoration: underline;
+}
+.phone a {
+    color: #acb2c5;
+    font: 13px 'RotondaCBold' sans-serif;
+    letter-spacing: 0.5px;
+}
+.navbar b {color: #000000}
+
+
+
+/* Main */
+#main {
+    margin-top: 30px;
+}
+.breadcrumbs {
+    margin: 0 5px 15px;
+}
+.breadcrumbs li{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 5px;
+    color: #898989;
+    font: 12px 'Microsoft Sans Serif Regular' sans-serif;
+}
+.breadcrumbs li a {
+    color: #3b6cbb;
+    text-decoration: underline;
+}
+.breadcrumbs li:after {
+    content: ">";
+    padding-left: 10px;
+}
+.breadcrumbs li:last-child:after {
+    content: "";
+}
+h1 {
+    margin-left: 10px;
+    font: bold 33px 'RotondaCBold' sans-serif;
+}
+h2 {
+    font: bold 16px 'RotondaCBold' sans-serif;
+    margin: 0 auto;
+    padding: 20px 0 15px;
+}
+
+.club-menu {float: left;}
+.club-menu li{padding-bottom: 10px;}
+.club-menu a {text-decoration: underline;}
+.club-menu ul {padding: 0 10px 20px; margin: 0;}
+
+.regulations, .awards {
+    background: #f5f5f5;
+    width: 208px;
+}
+.regulations h3 {
+    font: normal 13px 'Microsoft Sans Serif Regular' sans-serif;
+    margin: 0 auto;
+    padding: 20px 10px 10px;
+}
+.regulations li{
+    color: #000000;
+}
+.regulations a {
+    color: #30487e;
+}
+.quick_links li{
+    font: 12px 'Microsoft Sans Serif Regular' sans-serif;
+    color: #3b6cbb;
+}
+.club-menu h2, .we-inform h2{padding-left: 10px;}
+.title h1 {float: left;}
+.title{
+    float: right;
+    margin-top: 12px;
+}
+.title li, .menu_score li {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 10px 5px;
+}
+.title a, .we-inform a, .question a, #footer a, .question_1 a, .offer_kefir span a {
+    color: #3b6cbb;
+    text-decoration: underline;
+    font: inherit;
+}
+.title li:before, .recipes_milk a:before {
+    content: url(../images/img-2.png) '  ';
+    text-decoration: none;
+}
+.main-inform, .main-content, .main-milk {
+    width: 708px;
+    float: right;
+
+}
+.main-inform .scores{
+    float: right;
+    text-align: center;
+}
+.main-inform span {padding:15px 50px 5px;}
+.main-inform a.new_member {
+    color: white;
+    background: rgb(250,207,12) linear-gradient(rgb(250,207,12), rgb(241,129,31));
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 8px 15px;
+    display: block;
+    width: 190px;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.main-inform span a {display: inline;}
+.main-inform a, .main-content a {
+    color: #3b6cbb;
+    text-decoration: underline;
+}
+.main-inform a.rules {
+    font: bold 16px 'RotondaCBold' sans-serif;;
+}
+.main-inform a.rules:before {
+    content: url(../images/img-3.png)' ';
+}
+.main-inform p, .main-content p {
+    font: 13px/1.5em 'Microsoft Sans Serif Regular' sans-serif;
+    margin-top: 12px;
+}
+.main-inform p.text {margin-bottom: 25px;}
+.main-inform h2{padding-bottom: 10px;}
+.we-inform {float: left;}
+.we-inform {width: 300px;}
+.question {
+    width: 650px;
+    float: right;
+}
+.question2, .add-inform-cart {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+.question a {margin: 0 auto;}
+.we-inform li{padding:0 0 10px 10px;}
+.we-inform h2 {padding-bottom: 20px;}
+.add-inform span.bold {
+    font: bold 13px 'RotondaCBold' sans-serif;
+    display: inline-block;
+}
+.add-inform article {
+    font: 13px/1.5em 'Microsoft Sans Serif Regular' sans-serif;
+    margin-bottom: 10px;
+}
+.add-inform {
+    margin-bottom: 25px;
+}
+.all-question {margin-bottom: 33px;}
+
+
+
+
+
+
+
+/**footer**/
+
+#footer {
+    background: rgb(242,243,239) linear-gradient(rgb(242,243,239), rgb(255,255,255));
+}
+#footer h2 {padding:28px 0 10px;}
+#footer .technical_support {
+    margin-bottom: 10px;
+}
+#footer a.phone2{
+    color: #000000;
+    text-decoration: none;
+    font: 13px/1.5em 'Microsoft Sans Serif Regular' sans-serif;
+}
+#footer a.phone2 span {font: bold 16px 'RotondaCBold' sans-serif;}
+#footer .footer_content {
+    margin-bottom: 17px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #e5e5e5;
+}
+.contact {
+    float: left;
+    width: 310px;
+    margin-right: 20px;
+}
+.quick-link {
+    float: left;
+    width: 320px;
+    margin-right: 5px;
+}
+.social {
+    float: left;
+    width: 280px;
+}
+.social li {
+    display: inline-block;
+    padding-right: 5px;
+}
+.social a {
+    height: 28px;
+    display: block;
+}
+.social ul {
+    margin-bottom: 20px;
+    position: relative;
+}
+.social img {display: inline;}
+.mail-ru, .ok, .vk, .fb {
+    width: 28px;
+    text-indent: -9999px;
+}
+
+.mail-ru {
+    left: 0px;
+    background: url('../images/img-4_1.png') no-repeat 0 0;
+}
+.ok {
+    left: 35px;
+    background: url('../images/img-4_1.png') no-repeat -35px 0;
+}
+.vk {
+    left: 70px;
+    background: url('../images/img-4_1.png')no-repeat -70px 0;
+}
+.fb {
+    left: 105px;
+    background: url('../images/img-4_1.png')no-repeat -105px 0;
+}
+
+.copyright p {
+    float: left;
+    font: 13px/1.5em 'Microsoft Sans Serif Regular' sans-serif;
+}
+.copyright ul {float: right;}
+.copyright li {
+    display: inline-block;
+    padding: 0 10px 0;
+}
+.copyright {
+    padding-bottom: 55px;
+}
+.quick-link li{
+    width: 160px;
+    float: left;
+    padding-bottom: 10px;
+}
+
+.contact, .copyright {margin-left: 10px;}
+
+/** End footer**/
+
+
+                                                     /**Movie**/
+iframe {
+    float: left;
+    width: 693px ;
+    height: 520px;
+    margin-right: 18px;
+}
+.preview-item {
+    margin-bottom: 37px;
+}
+.movie, .toys {
+    background-color: #f5f5f5;
+}
+.movie a, .honors a{
+    font:bold 16px 'RotondaCBold' sans-serif;
+    color: #005094;
+    text-decoration: underline ;
+}
+.movie {
+    margin: 0 5px;
+    padding-bottom: 5px;
+}
+.movie_text {
+    font: 12px/1.5 'Microsoft Sans Serif Regular' sans-serif;
+    margin:-8px 13px 20px;
+}
+.honors {
+    margin: 0 0 20px 10px;
+}
+.honors .link-honors {
+    display: inline-block;
+    margin-top: 20px;
+}
+.honors h2{
+    font: bold 20px 'RotondaCBold' sans-serif;
+    margin-bottom: 17px;
+}
+.honors img {
+    float: left;
+    margin-right: 20px;
+    width: 166px;
+}
+.toys a {
+    margin-top: 10px;
+    display: block;
+}
+.toys {
+    width: 385px;
+    height: 108px;
+    float: left;
+    display: inline-block;
+    margin-right: 30px;
+    border: 1px solid #f5f5f5;
+}
+
+
+
+                                            /**Contacts**/
+
+.confirmation_code {
+    width: 50%;
+    float: left;
+    margin: 10px 0 0 15px;
+}
+.confirmation_code p{
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+.repeat_code {
+    width: 45%;
+    float: right;
+}
+.repeat_code p{
+    margin-bottom: 27px;
+    display: inline-block;
+    line-height: 1.5;
+}
+.code_phone span, .code_email span {
+    display: inline-block;
+}
+.code_phone, .code_email {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: -13px 0 25px 6px;
+}
+.code_button {
+    color: white;
+    background: rgb(97,133,189) linear-gradient(rgb(97,133,189), rgb(47,79,139));
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font: bold 17px 'Calibri_Bold' sans-serif;
+    border: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 3);
+}
+.repeat_code .code_button {
+    width: 230px;
+    float: right;
+    margin: 0;
+}
+input {
+    height: 30px;
+    outline: none;
+    margin-right: 20px;
+}
+.form {
+    height: 20px;
+    border-radius: 5px;
+    width: 135px;
+    box-shadow: none;
+    border: 1px solid gray;
+}
+.attention {
+    font:  bold 13px 'RotondaCBold' sans-serif;
+    color: #c80000;
+    padding-top: 20px;
+}
+.repeat_code span{
+    color: #000000;
+    font: bold 17px 'RotondaCBold' sans-serif;
+}
+
+
+                                                /**Cart**/
+.awards {padding-right: 20px;}
+.awards li:before {
+    content: "•";
+    padding-right: 10px;
+    padding-left: 5px;
+}
+.awards ul {
+    padding: 5px 8px;
+}
+.awards li {
+    color: #30487e;
+    font: 12px 'Microsoft Sans Serif Regular' sans-serif;
+}
+.awards h2 {padding: 11px;}
+.awards a.all-awards, .add-inform-cart a {
+    color: #3b6cbb;
+    text-decoration: underline;
+}
+.awards a.all-awards {
+    margin: 20px 13px;
+    display: block;
+}
+.menu_score, .recipes_milk {
+    float: right;
+    margin-top: 10px;
+}
+.menu_score a, .recipes_milk a {
+    color: #3b6cbb;
+    text-decoration: underline;
+}
+.menu_score span {
+    float: right;
+    font: 12px 'Microsoft Sans Serif Regular' sans-serif;
+    color: #232323;
+    margin-right: 13px;
+}
+.que:before {
+    content: url(../images/img-2.png) '  ';
+    text-decoration: none;
+}
+.order:before {
+    content: url(../images/img-2_1.png) '  ';
+    text-decoration: none;
+}
+.add-inform-cart {
+    width: 715px;
+    float: right;
+}
+.add-inform-cart span.bold {font: bold 13px 'RotondaCBold' sans-serif;}
+.add-inform-cart article, .add-inform-cart p {
+    font: 13px/1.5em 'Microsoft Sans Serif Regular' sans-serif;
+    margin-bottom: 10px;
+}
+.add-inform-cart article {
+    width: 307px;
+}
+.add-inform-cart span {display: inline-block;}
+p.rules {margin-bottom: 20px;}
+.inquiry-form {
+    margin-top: 5px;
+}
+.main-content .figure img {
+    margin: 15px;
+    float: left;
+}
+.prizes li{
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0 0 25px;
+    margin-bottom: 25px;
+}
+
+.award-description {
+    width: 63%;
+    display: inline-block;
+}
+.remove_cart {
+    width: 18%;
+    display: inline-block;
+    padding: 0;
+    float: right;
+    font: bold 18px 'RotondaCBold' sans-serif;
+}
+.remove_cart a{
+    display: inline-block;
+    font: 13px 'Microsoft Sans Serif Regular' sans-serif;
+}
+.main-content {
+    width: 75%;
+}
+.cart-amt {
+    float: right;
+}
+.award-description p{
+    font: 18px 'Microsoft Sans Serif Regular' sans-serif;
+    margin-bottom: 20px;
+}
+.award-description span {
+    font: 14px 'Microsoft Sans Serif Regular' sans-serif;
+    color: #232323;
+    display: inline-block;
+}
+.award-description select {
+    border-radius: 5px;
+    outline: none;
+    width: 55px;
+}
+.checkout {
+    float: right;
+    margin-right: 10px;
+}
+.order-price span {
+    font: bold 20px 'RotondaCBold' sans-serif;
+    display: inline-block;
+}
+.checkout span {
+    display: inherit;
+    margin-bottom: 16px;
+}
+.checkout input {
+    float: right;
+}
+.checkout .code_button {
+    font: bold 13px 'RotondaCBold' sans-serif;
+    width: 155px;
+    height: 27px;
+    margin: 0;
+}
+
+                                                     /**Milk**/
+.all-awards {                                                                                  /**категории продуктов**/
+    display: block;
+    padding: 0 0 20px 10px;
+}
+.product ul{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+.product {
+    width: 230px;
+    background: #f5f5f5;
+}
+.product a {
+    color: #30487e;
+}
+.product-milk {
+    display: inline-block;
+    width: 230px;
+    margin: 20px 0;
+    float: left;
+}
+.main-milk h2{
+    font-size: 20px;
+}
+.product-milk h2{
+    font-size: 16px;
+    padding: 0;
+}
+.product-milk a, .offer_kefir a {
+    color: #005dab;
+    font: bold 14px 'RotondaCBold' sans-serif;
+}
+.product-milk span {
+    padding: 15px 0;
+}
+.paster-milk {border-bottom: 1px solid #E5E5E5; }
+
+
+.product li {
+    padding-left: 20px;
+}
+ul .novelty:before, ul .butter:before, ul .cheese:before, ul .yogurt:before, ul .cream:before, ul .sour-cream:before, ul .kefir:before, ul .milk:before, ul .leaven:before, ul .curd:before, ul .milkshakes:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+.product ul .novelty:before {
+    margin-left: -22px;
+    margin-top: -4px;
+    background: url('../images/img-milk-4.png') no-repeat;
+}
+.product ul .butter:before {
+    margin-left: -22px;
+    margin-top: -4px;
+    background: url('../images/img-milk-4.png') no-repeat 0 -22px;
+}
+.product ul .cheese:before {
+    margin-left: -22px;
+    margin-top: -4px;
+    background: url('../images/img-milk-4.png') no-repeat 0 -46px;
+}
+.product ul .yogurt:before {
+    margin-left: -22px;
+    margin-top: -4px;
+    background: url('../images/img-milk-4.png') no-repeat 0 -69px;
+}
+.product ul .cream:before {
+    margin-left: -22px;
+    margin-top: -4px;
+    background: url('../images/img-milk-4.png') no-repeat 0 -94px;
+}
+.product ul .sour-cream:before {
+    margin-left: -22px;
+    margin-top: -4px;
+    background: url('../images/img-milk-4.png') no-repeat 0 -119px;
+}
+.product ul .kefir:before {
+    margin-left: 90px;
+    margin-top: -165px;
+    background: url('../images/img-milk-4.png') no-repeat -18px 0px;
+}
+.product ul .milk:before {
+    margin-left: 90px;
+    margin-top: -165px;
+    background: url('../images/img-milk-4.png') no-repeat -18px -23px;
+}
+.product ul .leaven:before {
+    margin-left: 90px;
+    margin-top: -165px;
+    background: url('../images/img-milk-4.png') no-repeat -18px -48px;
+}
+.product ul .curd:before {
+    margin-left: 90px;
+    margin-top: -165px;
+    background: url('../images/img-milk-4.png') no-repeat -18px -73px;
+}
+.product ul .milkshakes:before {
+    margin-left: 90px;
+    margin-top: -155px;
+    background: url('../images/img-milk-4.png') no-repeat -18px -104px;
+}
+                                                                                           /**конец стилей категорий**/
+.main-milk {
+    border: none;
+}
+.offer_kefir img, .main-milk img {
+    float: left;
+}
+.main-milk img {
+    display: inline;
+}
+.cat-dialog p {
+    width: 340px;
+    display: inline;
+}
+.dog-dialog {
+    width: 260px;
+    float: left;
+    font:  bold 13px 'RotondaCBold' sans-serif;
+}
+.cat-dialog .not-visible {
+    display: none;
+}
+.cat-dialog:hover {
+    width: 475px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    float: right;
+}
+.cat-dialog a {
+    color: #3b6cbb;
+    text-decoration: none;
+    border-bottom: 1px dashed #3b6cbb;
+}
+.cat-dialog:hover .not-visible {
+    display: block;
+}
+.cat-dialog:hover .not-visible-link {
+    display: none;
+}
+
+
+.recipes {                                                                                         /**доп. инфо**/
+    width: 390px;
+    float: left;
+}
+.recipes_month {
+    width: 175px;
+    display: inline-block;
+    background-color: #f5f5f5;
+    margin: 0 10px 25px 0;
+}
+.recipes_month a {
+    font:  bold 13px 'RotondaCBold' sans-serif;
+    color: #30487e;
+    display: block;
+    margin-bottom: 35px;
+    margin-left: 15px;
+}
+.recipes_month li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.offer {
+    display: inline-block;
+    width: 250px;
+}
+.recipes_month img {
+    margin: 6px;
+}
+.offer_kefir {
+    display: inherit;
+    margin-bottom: 25px;
+}
+.offer_kefir span{
+    margin-bottom: 15px;
+}
+
+ul .minutes:before, ul .like:before, ul .comment:before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+}
+ul .minutes:before{
+    margin-left: -15px;
+    margin-top: 0px;
+    background: url('../images/img-milk-7.png') no-repeat 0px 0px;
+}
+ul .like:before{
+    margin-left: -15px;
+    margin-top: 0px;
+    background: url('../images/img-milk-7.png') no-repeat 0px -16px;
+}
+ul .comment:before{
+    margin-left: -15px;
+    margin-top: 0px;
+    background: url('../images/img-milk-7.png') no-repeat 0px -30px;
+}
+

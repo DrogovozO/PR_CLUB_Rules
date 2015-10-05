@@ -1,0 +1,156 @@
+/* Begin reset */
+
+@font-face {
+    font-family: 'RotondaCBold';
+    src: url(../font/rotondac-bold.eot); /* IE 5-8 */
+    src: local('☺'),       /* sneakily trick IE */
+    url(../font/rotondac-bold.woff) format('woff'),  /* FF 3.6, Chrome 5, IE9 */
+    url(../font/rotondac-bold.ttf) format('truetype'), /* Opera, Safari */
+    url(../font/rotondac-bold.svg) format('svg'); /* iOS */
+}
+@font-face {
+    font-family: 'Microsoft Sans Serif Regular';
+    src: url(../font/Microsoft_Sans_Serif_Regular.eot); /* IE 5-8 */
+    src: local('☺'),       /* sneakily trick IE */
+    url(../font/Microsoft_Sans_Serif_Regular.woff) format('woff'),  /* FF 3.6, Chrome 5, IE9 */
+    url(../font/Microsoft_Sans_Serif_Regular.ttf) format('truetype'), /* Opera, Safari */
+    url(../font/Microsoft_Sans_Serif_Regular.svg) format('svg'); /* iOS */
+}
+@font-face {
+    font-family: 'Calibri_Bold';
+    src: url(../font/Calibri_Bold.eot); /* IE 5-8 */
+    src: local('☺'),       /* sneakily trick IE */
+    url(../font/Calibri_Bold.woff) format('woff'),  /* FF 3.6, Chrome 5, IE9 */
+    url(../font/Calibri_Bold.ttf) format('truetype'), /* Opera, Safari */
+    url(../font/Calibri_Bold.svg) format('svg'); /* iOS */
+}
+body {
+    margin: 0;
+    color: #333;
+    font: 13px 'Microsoft Sans Serif Regular' sans-serif;
+   }
+html {
+    font-family: sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+article,
+aside,
+footer,
+header,
+main,
+nav{
+    display: block;
+}
+[hidden],
+template {
+    display: none;
+}
+img {border-style: none;}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+}
+a:active,
+a:hover {
+    outline: 0;
+}
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+b,
+strong {
+    font-weight: bold;
+}
+dfn {
+    font-style: italic;
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+
+select {
+    font: 100% arial, sans-serif;
+    vertical-align: middle;
+    color: #000;
+    text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+input [type="tel"] {padding: 0;}
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+form, fieldset {
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.67em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.83em;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin-bottom: 1em;
+}
+
+h4 {
+    margin-bottom: 1.33em;
+}
+
+h5 {
+    font-size: .83em;
+    margin-bottom: 1.67em;
+}
+
+h6 {
+    font-size: .67em;
+    margin-bottom: 2.33em;
+}
+p, ul, span, figure {
+    display: block;
+    margin: 0;
+}
+/* End reset */
+

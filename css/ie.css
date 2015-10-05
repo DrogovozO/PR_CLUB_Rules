@@ -1,0 +1,31 @@
+.main-left, .main-right li{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #004b86;
+    font: bold 12px 'RotondaCBold' sans-serif;
+    letter-spacing: 0.6px;
+}
+.navbar li a.primary_button {
+    color: white;
+    background: rgb(250,207,12);
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 6px 15px;
+}
+.main-inform a.new_member {
+    color: white;
+    background: rgb(250,207,12);
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 8px 15px;
+    display: block;
+    width: 190px;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+body {
+    background-color: #005dab;
+}
+#wrapper {padding: 0 10px 0;}
+.quick_links {float: left;}
+.club-menu {float: left;}
