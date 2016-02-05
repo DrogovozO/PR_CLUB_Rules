@@ -46,7 +46,7 @@ body {
 }
 .authorization li a {
     color: #004b86;
-    font: bold 12px 'RotondaCBold' sans-serif;
+    font: bold 12px 'RotondaCBold', sans-serif;
 }
 .authorization li a:hover {
     color: #4876c0;
@@ -64,8 +64,8 @@ ul .key:before {
 .main-nav li{
     text-transform: uppercase;
     color: #004b86;
-    font: bold 12px 'RotondaCBold' sans-serif;
-    letter-spacing: 0.6px;
+    font: bold 12px 'RotondaCBold', sans-serif;
+    letter-spacing: 1px;
 }
 .main-left li {
     padding: 0 19px 0 0;
@@ -94,7 +94,7 @@ ul .key:before {
 .navbar ul {float: left;}
 .navbar li {
     padding: 0 20px 0 0;
-    font: bold 12px 'RotondaCBold' sans-serif;
+    font: bold 12px 'RotondaCBold', sans-serif;
     color: #004b86;
 }
 .navbar li a.primary_button {
@@ -111,8 +111,8 @@ ul .key:before {
 }
 .phone a {
     color: #acb2c5;
-    font: 13px 'RotondaCBold' sans-serif;
-    letter-spacing: 0.5px;
+    font: 13px 'RotondaCBold', sans-serif;
+    letter-spacing: 1px;
 }
 .navbar b {color: #000000}
 
@@ -130,7 +130,7 @@ ul .key:before {
     margin: 0 auto;
     padding: 0 5px;
     color: #898989;
-    font: 12px 'Microsoft Sans Serif Regular' sans-serif;
+    font: 12px 'Microsoft Sans Serif Regular', sans-serif;
 }
 .breadcrumbs li a {
     color: #3b6cbb;
@@ -145,10 +145,10 @@ ul .key:before {
 }
 h1 {
     margin-left: 10px;
-    font: bold 33px 'RotondaCBold' sans-serif;
+    font: bold 33px 'RotondaCBold', sans-serif;
 }
 h2 {
-    font: bold 16px 'RotondaCBold' sans-serif;
+    font: bold 16px 'RotondaCBold', sans-serif;
     margin: 0 auto;
     padding: 20px 0 15px;
 }
@@ -163,7 +163,7 @@ h2 {
     width: 208px;
 }
 .regulations h3 {
-    font: normal 13px 'Microsoft Sans Serif Regular' sans-serif;
+    font: normal 13px 'Microsoft Sans Serif Regular', sans-serif;
     margin: 0 auto;
     padding: 20px 10px 10px;
 }
@@ -174,7 +174,7 @@ h2 {
     color: #30487e;
 }
 .quick_links li{
-    font: 12px 'Microsoft Sans Serif Regular' sans-serif;
+    font: 12px 'Microsoft Sans Serif Regular', sans-serif;
     color: #3b6cbb;
 }
 .club-menu h2, .we-inform h2{padding-left: 10px;}
@@ -224,13 +224,13 @@ h2 {
     text-decoration: underline;
 }
 .main-inform a.rules {
-    font: bold 16px 'RotondaCBold' sans-serif;;
+    font: bold 16px 'RotondaCBold', sans-serif;;
 }
 .main-inform a.rules:before {
     content: url(../images/img-3.png)' ';
 }
 .main-inform p, .main-content p {
-    font: 13px/1.5em 'Microsoft Sans Serif Regular' sans-serif;
+    font: 13px/1.5em 'Microsoft Sans Serif Regular', sans-serif;
     margin-top: 12px;
 }
 .main-inform p.text {margin-bottom: 25px;}
@@ -250,11 +250,11 @@ h2 {
 .we-inform li{padding:0 0 10px 10px;}
 .we-inform h2 {padding-bottom: 20px;}
 .add-inform span.bold {
-    font: bold 13px 'RotondaCBold' sans-serif;
+    font: bold 13px 'RotondaCBold', sans-serif;
     display: inline-block;
 }
 .add-inform article {
-    font: 13px/1.5em 'Microsoft Sans Serif Regular' sans-serif;
+    font: 13px/1.5em 'Microsoft Sans Serif Regular', sans-serif;
     margin-bottom: 10px;
 }
 .add-inform {
@@ -280,9 +280,9 @@ h2 {
 #footer a.phone2{
     color: #000000;
     text-decoration: none;
-    font: 13px/1.5em 'Microsoft Sans Serif Regular' sans-serif;
+    font: 13px/1.5em 'Microsoft Sans Serif Regular', sans-serif;
 }
-#footer a.phone2 span {font: bold 16px 'RotondaCBold' sans-serif;}
+#footer a.phone2 span {font: bold 16px 'RotondaCBold', sans-serif;}
 #footer .footer_content {
     margin-bottom: 17px;
     padding-bottom: 20px;
@@ -321,7 +321,7 @@ h2 {
 }
 
 .mail-ru {
-    left: 0px;
+    left: 0;
     background: url('../images/img-4_1.png') no-repeat 0 0;
 }
 .ok {
@@ -339,7 +339,7 @@ h2 {
 
 .copyright p {
     float: left;
-    font: 13px/1.5em 'Microsoft Sans Serif Regular' sans-serif;
+    font: 13px/1.5em 'Microsoft Sans Serif Regular', sans-serif;
 }
 .copyright ul {float: right;}
 .copyright li {
@@ -374,7 +374,7 @@ iframe {
     background-color: #f5f5f5;
 }
 .movie a, .honors a{
-    font:bold 16px 'RotondaCBold' sans-serif;
+    font:bold 16px 'RotondaCBold', sans-serif;
     color: #005094;
     text-decoration: underline ;
 }
@@ -383,7 +383,7 @@ iframe {
     padding-bottom: 5px;
 }
 .movie_text {
-    font: 12px/1.5 'Microsoft Sans Serif Regular' sans-serif;
+    font: 12px/1.5 'Microsoft Sans Serif Regular', sans-serif;
     margin:-8px 13px 20px;
 }
 .honors {
@@ -394,7 +394,7 @@ iframe {
     margin-top: 20px;
 }
 .honors h2{
-    font: bold 20px 'RotondaCBold' sans-serif;
+    font: bold 20px 'RotondaCBold', sans-serif;
     margin-bottom: 17px;
 }
 .honors img {
@@ -451,7 +451,7 @@ iframe {
     border-radius: 5px;
     display: inline-block;
     text-decoration: none;
-    font: bold 17px 'Calibri_Bold' sans-serif;
+    font: bold 17px 'Calibri_Bold', sans-serif;
     border: none;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 3);
 }
@@ -473,13 +473,13 @@ input {
     border: 1px solid gray;
 }
 .attention {
-    font:  bold 13px 'RotondaCBold' sans-serif;
+    font:  bold 13px 'RotondaCBold', sans-serif;
     color: #c80000;
     padding-top: 20px;
 }
 .repeat_code span{
     color: #000000;
-    font: bold 17px 'RotondaCBold' sans-serif;
+    font: bold 17px 'RotondaCBold', sans-serif;
 }
 
 
@@ -495,7 +495,7 @@ input {
 }
 .awards li {
     color: #30487e;
-    font: 12px 'Microsoft Sans Serif Regular' sans-serif;
+    font: 12px 'Microsoft Sans Serif Regular', sans-serif;
 }
 .awards h2 {padding: 11px;}
 .awards a.all-awards, .add-inform-cart a {
@@ -516,7 +516,7 @@ input {
 }
 .menu_score span {
     float: right;
-    font: 12px 'Microsoft Sans Serif Regular' sans-serif;
+    font: 12px 'Microsoft Sans Serif Regular', sans-serif;
     color: #232323;
     margin-right: 13px;
 }
@@ -532,9 +532,9 @@ input {
     width: 715px;
     float: right;
 }
-.add-inform-cart span.bold {font: bold 13px 'RotondaCBold' sans-serif;}
+.add-inform-cart span.bold {font: bold 13px 'RotondaCBold', sans-serif;}
 .add-inform-cart article, .add-inform-cart p {
-    font: 13px/1.5em 'Microsoft Sans Serif Regular' sans-serif;
+    font: 13px/1.5em 'Microsoft Sans Serif Regular', sans-serif;
     margin-bottom: 10px;
 }
 .add-inform-cart article {
@@ -564,11 +564,11 @@ p.rules {margin-bottom: 20px;}
     display: inline-block;
     padding: 0;
     float: right;
-    font: bold 18px 'RotondaCBold' sans-serif;
+    font: bold 18px 'RotondaCBold', sans-serif;
 }
 .remove_cart a{
     display: inline-block;
-    font: 13px 'Microsoft Sans Serif Regular' sans-serif;
+    font: 13px 'Microsoft Sans Serif Regular', sans-serif;
 }
 .main-content {
     width: 75%;
@@ -577,11 +577,11 @@ p.rules {margin-bottom: 20px;}
     float: right;
 }
 .award-description p{
-    font: 18px 'Microsoft Sans Serif Regular' sans-serif;
+    font: 18px 'Microsoft Sans Serif Regular', sans-serif;
     margin-bottom: 20px;
 }
 .award-description span {
-    font: 14px 'Microsoft Sans Serif Regular' sans-serif;
+    font: 14px 'Microsoft Sans Serif Regular', sans-serif;
     color: #232323;
     display: inline-block;
 }
@@ -595,7 +595,7 @@ p.rules {margin-bottom: 20px;}
     margin-right: 10px;
 }
 .order-price span {
-    font: bold 20px 'RotondaCBold' sans-serif;
+    font: bold 20px 'RotondaCBold', sans-serif;
     display: inline-block;
 }
 .checkout span {
@@ -606,7 +606,7 @@ p.rules {margin-bottom: 20px;}
     float: right;
 }
 .checkout .code_button {
-    font: bold 13px 'RotondaCBold' sans-serif;
+    font: bold 13px 'RotondaCBold', sans-serif;
     width: 155px;
     height: 27px;
     margin: 0;
@@ -644,7 +644,7 @@ p.rules {margin-bottom: 20px;}
 }
 .product-milk a, .offer_kefir a {
     color: #005dab;
-    font: bold 14px 'RotondaCBold' sans-serif;
+    font: bold 14px 'RotondaCBold', sans-serif;
 }
 .product-milk span {
     padding: 15px 0;
@@ -693,31 +693,51 @@ ul .novelty:before, ul .butter:before, ul .cheese:before, ul .yogurt:before, ul 
     background: url('../images/img-milk-4.png') no-repeat 0 -119px;
 }
 .product ul .kefir:before {
+    -moz-margin-left: -20px;
+    -moz-margin-top: -4px;
     margin-left: 90px;
-    margin-top: -165px;
-    background: url('../images/img-milk-4.png') no-repeat -18px 0px;
+    margin-top: -150px;
+    background: url('../images/img-milk-4.png') no-repeat -18px 0;
 }
 .product ul .milk:before {
+    -moz-margin-left: -20px;
+    -moz-margin-top: -6px;
     margin-left: 90px;
-    margin-top: -165px;
+    margin-top: -150px;
     background: url('../images/img-milk-4.png') no-repeat -18px -23px;
 }
 .product ul .leaven:before {
+    -moz-margin-left: -20px;
+    -moz-margin-top: -5px;
     margin-left: 90px;
-    margin-top: -165px;
+    margin-top: -150px;
     background: url('../images/img-milk-4.png') no-repeat -18px -48px;
 }
 .product ul .curd:before {
+    -moz-margin-left: -20px;
+    -moz-margin-top: -5px;
     margin-left: 90px;
-    margin-top: -165px;
+    margin-top: -150px;
     background: url('../images/img-milk-4.png') no-repeat -18px -73px;
 }
 .product ul .milkshakes:before {
+    -moz-margin-left: -20px;
+    -moz-margin-top: 2px;
+    -moz-margin: 0 0 0 0;
     margin-left: 90px;
-    margin-top: -155px;
+    margin-top: -140px;
     background: url('../images/img-milk-4.png') no-repeat -18px -104px;
 }
-                                                                                           /**конец стилей категорий**/
+@-moz-document url-prefix() {
+    .product ul .kefir:before, .product ul .milk:before, .product ul .leaven:before, .product ul .curd:before {
+        margin-left: -20px;
+        margin-top: -5px;
+    }
+    .product ul .milkshakes:before {
+        margin-left: -20px;
+        margin-top: 2px;
+    }
+}                                                                                           /**конец стилей категорий**/
 .main-milk {
     border: none;
 }
@@ -727,34 +747,72 @@ ul .novelty:before, ul .butter:before, ul .cheese:before, ul .yogurt:before, ul 
 .main-milk img {
     display: inline;
 }
+                                      /* Dialog */
+.dog-dialog {
+    width: 40%;
+    float: left;
+    font:  bold 13px 'RotondaCBold', sans-serif;
+}
+.cat-dialog {
+    float: right;
+    width: 60%;
+}
 .cat-dialog p {
     width: 340px;
     display: inline;
-}
-.dog-dialog {
-    width: 260px;
-    float: left;
-    font:  bold 13px 'RotondaCBold' sans-serif;
-}
-.cat-dialog .not-visible {
-    display: none;
-}
-.cat-dialog:hover {
-    width: 475px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    float: right;
 }
 .cat-dialog a {
     color: #3b6cbb;
     text-decoration: none;
     border-bottom: 1px dashed #3b6cbb;
+    margin-top: 10px;
+}                                         /*Modal window*/
+.overlay1, .overlay2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0);
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+}
+.modal-dialog {
+    position: relative;
+    margin: 25% 0 0 50%;
+    width: 35%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px;
+}
+.modal-dialog p:after, .cat-dialog p:after {
+    content: '';
+    margin-bottom: 10px;
+    display: block;
+}
+/*.cat-dialog:hover {
+    width: 475px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    float: right;
 }
 .cat-dialog:hover .not-visible {
     display: block;
 }
 .cat-dialog:hover .not-visible-link {
     display: none;
+    width: 475px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    float: right;
+.cat-dialog .not-visible {
+    display: none;
 }
+}*/
+
+
 
 
 .recipes {                                                                                         /**доп. инфо**/
@@ -768,7 +826,7 @@ ul .novelty:before, ul .butter:before, ul .cheese:before, ul .yogurt:before, ul 
     margin: 0 10px 25px 0;
 }
 .recipes_month a {
-    font:  bold 13px 'RotondaCBold' sans-serif;
+    font:  bold 13px 'RotondaCBold', sans-serif;
     color: #30487e;
     display: block;
     margin-bottom: 35px;
@@ -802,17 +860,17 @@ ul .minutes:before, ul .like:before, ul .comment:before {
 }
 ul .minutes:before{
     margin-left: -15px;
-    margin-top: 0px;
-    background: url('../images/img-milk-7.png') no-repeat 0px 0px;
+    margin-top: 0;
+    background: url('../images/img-milk-7.png') no-repeat 0 0;
 }
 ul .like:before{
     margin-left: -15px;
-    margin-top: 0px;
-    background: url('../images/img-milk-7.png') no-repeat 0px -16px;
+    margin-top: 0;
+    background: url('../images/img-milk-7.png') no-repeat 0 -16px;
 }
 ul .comment:before{
     margin-left: -15px;
-    margin-top: 0px;
-    background: url('../images/img-milk-7.png') no-repeat 0px -30px;
+    margin-top: 0;
+    background: url('../images/img-milk-7.png') no-repeat 0 -30px;
 }
 
